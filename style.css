@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 700px;
+
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    padding-block: 28px;
+    padding-right: 60px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+a {
+    color: #040062;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 50px;
+    color: #040062;
+}   
+
+.button {
+    background-color: #0013FF;
+    color: white;
+    padding: 5px;
+}

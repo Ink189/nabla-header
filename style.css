@@ -4,39 +4,55 @@
     box-sizing: border-box;
 }
 
-.menu {
+:root {
+    --blue: #040062;
+}
+
+.header__menu {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-right: 700px;
-
 }
 
 header {
     display: flex;
-    justify-content: end;
     padding-block: 28px;
-    padding-right: 60px;
+    padding: 28px 60px 0 60px;
 }
 
-.container {
+.header__container {
     display: flex;
+    justify-content: space-between;
     margin: 0 auto;
+    width: 1304px;
+    
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
+    gap: 50px;
 }
 
 a {
-    color: #040062;
+    color: var(--blue);
     text-decoration: none;
 }
 
-.logo {
-    margin-right: 50px;
-    color: #040062;
+.header__logo {
+    color: var(--blue);
+    
 }   
 
-.button {
+.header__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0013FF;
     color: white;
-    padding: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
 }

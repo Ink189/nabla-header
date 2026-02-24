@@ -64,22 +64,20 @@ a {
     margin-top: 90px;
 }
 
-.description__img--blue {
+.description__img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 648px;
-    height: 648px;
+    width: 50%;
+    object-fit: cover;
+    padding-block: 70px;
+}
+
+.description__img--blue {
     background-color: #C7E3E9;
 }
 
 .description__img--red {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 648px;
-    height: 648px;
-    object-fit: cover;
     background-color: #FEF1EF;
 }
 
@@ -88,21 +86,15 @@ a {
     height: 508px;
 }
 
-.description__card--red {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.description__card--blue {
+.description__card {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .description__info {
-    height: 648px;
-    width: 648px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
